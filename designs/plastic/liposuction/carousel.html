@@ -2,19 +2,19 @@
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{--teal:#0BB0A8;--blue:#1278CC;--mint:#D2EAD2;--ice:#C6EAF6;--deepteal:#077E79;--navy:#0E3F6B;--charcoal:#2B2F36;--cloud:#F3F6F8}
   *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Noto Sans Arabic',sans-serif;background:#ddd}
+  body{font-family:'Readex Pro',sans-serif;background:#ddd}
   .slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:#fff;direction:rtl;margin-bottom:20px}
   .bg{position:absolute;inset:0}
   .logo{position:absolute;top:60px;left:50%;transform:translateX(-50%);width:400px}
   .num{position:absolute;top:70px;left:60px;font-size:24px;font-weight:700;color:var(--teal);direction:ltr}
-  .ttl{font-weight:900;color:var(--blue);line-height:1.15}
+  .ttl{font-weight:700;color:var(--blue);line-height:1.15}
   .sub{color:var(--deepteal);font-weight:600}
   /* WhatsApp / location chips, as on the facial card */
-  .chip{display:flex;align-items:center;justify-content:center;gap:14px;height:76px;border-radius:38px;padding:0 30px;font-weight:800}
+  .chip{display:flex;align-items:center;justify-content:center;gap:14px;height:76px;border-radius:38px;padding:0 30px;font-weight:700}
   .chip svg{width:36px;height:36px;flex:none}
   .chip.wa{background:var(--teal);color:#fff;font-size:38px;direction:ltr;box-shadow:0 6px 18px rgba(11,176,168,.28)}
   .chip.loc{background:#fff;border:3px solid var(--mint);color:var(--blue);font-size:30px}
@@ -23,12 +23,12 @@
   .pill i{width:12px;height:12px;background:var(--teal);border-radius:3px;transform:rotate(45deg)}
 
   /* slide 1 */
-  .s1 .model{position:absolute;right:-110px;bottom:0;width:760px}
-  .s1 .tag{position:absolute;top:265px;right:520px;background:var(--blue);color:#fff;font-weight:700;font-size:28px;padding:8px 26px;border-radius:24px}
-  .s1 .ttl{position:absolute;top:340px;left:40px;font-size:92px;width:520px;text-align:right;white-space:nowrap}
-  .s1 .sub{position:absolute;top:490px;left:40px;font-size:38px;width:520px;text-align:right}
-  .s1 .pills{position:absolute;top:610px;left:60px;display:flex;flex-direction:column;align-items:flex-start;gap:18px;width:500px}
-  .s1 .cta{position:absolute;left:60px;bottom:80px;width:520px}
+  .s1 .model{position:absolute;left:-40px;bottom:0;width:690px}
+  .s1 .tag{position:absolute;top:265px;right:60px;background:var(--blue);color:#fff;font-weight:700;font-size:28px;padding:8px 26px;border-radius:24px}
+  .s1 .ttl{position:absolute;top:340px;right:60px;font-size:92px;width:520px;text-align:right;white-space:nowrap}
+  .s1 .sub{position:absolute;top:490px;right:60px;font-size:38px;width:520px;text-align:right}
+  .s1 .pills{position:absolute;top:610px;right:60px;display:flex;flex-direction:column;align-items:flex-start;gap:18px;width:500px}
+  .s1 .cta{position:absolute;right:60px;bottom:80px;width:480px}
   .s1 .cta .chip{font-size:40px;direction:rtl}
 
   /* slide 2 */
@@ -42,7 +42,7 @@
   .lead{position:absolute;height:2px;background:var(--blue);opacity:.6}
   .facts{position:absolute;left:50px;right:50px;bottom:55px;display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
   .fact{background:var(--mint);border-radius:22px;padding:20px 8px;text-align:center}
-  .fact b{display:block;font-size:34px;font-weight:900;color:var(--blue);direction:rtl}
+  .fact b{display:block;font-size:34px;font-weight:700;color:var(--blue);direction:rtl}
   .fact span{display:block;font-size:21px;font-weight:600;color:var(--deepteal);margin-top:4px;line-height:1.3}
 
   /* slide 3 */
@@ -50,7 +50,7 @@
   .s3 .sub{position:absolute;top:315px;width:100%;text-align:center;font-size:32px}
   .tips{position:absolute;top:410px;left:70px;right:70px;display:flex;flex-direction:column;gap:20px}
   .tip{display:flex;align-items:center;gap:26px;background:var(--cloud);border-radius:24px;padding:22px 30px;border-right:10px solid var(--teal)}
-  .tip .n{flex:none;width:64px;height:64px;border-radius:18px;background:var(--blue);color:#fff;font-size:34px;font-weight:900;display:flex;align-items:center;justify-content:center}
+  .tip .n{flex:none;width:64px;height:64px;border-radius:18px;background:var(--blue);color:#fff;font-size:34px;font-weight:700;display:flex;align-items:center;justify-content:center}
   .tip p{font-size:34px;font-weight:700;color:var(--charcoal);line-height:1.35}
   .tip p small{display:block;font-size:24px;font-weight:500;color:#5b6570}
 
@@ -60,12 +60,12 @@
   .s4 .ttl{position:absolute;top:300px;width:100%;text-align:center;color:#fff;font-size:100px}
   .s4 .sub{position:absolute;top:440px;width:100%;text-align:center;color:var(--ice);font-size:36px;font-weight:500}
   .doc{position:absolute;top:540px;left:90px;right:90px;height:470px;background:#fff;border-radius:36px;overflow:hidden}
-  .doc img{position:absolute;left:-70px;bottom:-200px;width:640px}
+  .doc img{position:absolute;left:10px;bottom:0;height:450px;width:auto}
   .doc .txt{position:absolute;right:40px;top:0;bottom:0;width:440px;display:flex;flex-direction:column;justify-content:center;text-align:right}
   .doc .badge{align-self:flex-start;background:var(--mint);color:var(--deepteal);font-weight:700;font-size:24px;border-radius:20px;padding:6px 18px;margin-bottom:16px}
   .doc .avatar{width:170px;height:170px;border-radius:50%;margin:0 auto 22px;background:var(--ice);display:flex;align-items:center;justify-content:center;border:6px solid var(--mint)}
   .doc .avatar svg{width:90px;height:90px}
-  .doc h3{font-size:44px;line-height:1.3;font-weight:900;color:var(--blue)}
+  .doc h3{font-size:44px;line-height:1.3;font-weight:700;color:var(--blue)}
   .doc h4{font-size:30px;font-weight:600;color:var(--deepteal);margin-top:6px}
   .s4 .ctas{position:absolute;left:120px;right:120px;bottom:90px;display:flex;flex-direction:column;gap:18px}
   .s4 .chip.loc{background:transparent;border-color:rgba(198,234,246,.5);color:#fff}
@@ -76,10 +76,10 @@
 <!-- ============ SLIDE 1: promo cover ============ -->
 <section class="slide s1" id="s1">
   <svg class="bg" viewBox="0 0 1080 1350">
-    <polygon points="0,105 70,150 70,470 0,425" fill="#C6EAF6" opacity=".55"/>
-    <polygon points="70,210 210,205 300,265 70,330" fill="#C6EAF6" opacity=".35"/>
-    <polygon points="600,360 1030,0 1030,820 600,820" fill="#0BB0A8"/>
-    <polygon points="1030,560 1080,520 1080,1100 1030,1100" fill="#C6EAF6" opacity=".7"/>
+    <polygon points="1080,105 1010,150 1010,470 1080,425" fill="#C6EAF6" opacity=".55"/>
+    <polygon points="1010,210 870,205 780,265 1010,330" fill="#C6EAF6" opacity=".35"/>
+    <polygon points="480,360 50,0 50,820 480,820" fill="#0BB0A8"/>
+    <polygon points="50,560 0,520 0,1100 50,1100" fill="#C6EAF6" opacity=".7"/>
   </svg>
   <img class="model" src="model_cover.png" alt="">
   <img class="logo" src="../../brand/TL_logo_primary_1024x237.png" alt="True Life Medical Center">
@@ -92,7 +92,7 @@
     <span class="pill"><i></i>مع أخصائي جراحة التجميل</span>
   </div>
   <div class="cta"><div class="chip wa">احجزي استشارتك</div></div>
-  <div class="num">1/4</div>
+  <div class="num" style="left:auto;right:60px">1/4</div>
 </section>
 
 <!-- ============ SLIDE 2: incisions + recovery ============ -->
