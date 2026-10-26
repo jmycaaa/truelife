@@ -77,3 +77,14 @@ The Carousel EN/AR subfolders are empty.
 | Muscle stimulation, tummy (3 sessions) | 3 جلسات لتقوية العضلات لمنطقة البطن | 999 |
 
 Open questions: offer end date; which address to use; whether any old prices should be shown crossed out.
+
+## Design template (from the client's 5 reference posts: Laser Men, Laser, Massage, Derma, Skin Care)
+- Single post, 1080x1350 (4:5). Arabic, right-to-left.
+- Background: white, with brand geometric shapes: pale-blue hexagon slices on the top-left edge, a large teal triangle top-right behind the model, soft mint diagonal shapes in the middle.
+- Logo: True Life (مركز ترو لايف للرعاية الأولية ذ.م.م), top centre.
+- Headline: "عروض ..." in large bold blue, left column. Optional tagline below in thin teal with stretched letters (kashida).
+- Offer rows: mint rounded card with the treatment name in bold teal and an optional sub-line in parentheses. Blue rounded price pill with a white outline, white bold number + dirham symbol, overlapping the card's left edge.
+- Big numerals (3 / 5) in teal for session-count offers.
+- A white rounded panel sits behind the offer list and overlaps the model.
+- Right side: a real studio model cut out (head and shoulders), overlapping the teal triangle. Product still life at the bottom when there's no model (massage).
+- Layout variants: List (5–7 rows), Hero (1 big offer card), Numerals (session counts), Still life.
