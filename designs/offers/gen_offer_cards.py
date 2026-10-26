@@ -33,7 +33,7 @@ for o in offers:
     secs = []
     for i, (name, sub, price) in enumerate(o['rows']):
         img = f'<img class="c-product" src="{o["model"]}">' if o.get('product') else f'<img class="c-model" src="{o["model"]}">'
-        cta = 'احجز الآن' if male else 'احجزي الآن'
+        cta = 'احجز الآن' if male else ('احجزوا الآن' if b['gender'] == 'p' else 'احجزي الآن')
         secs.append(f'''<section class="slide" id="c{i+2}">{BG_L}{img}
 <img class="logo" style="left:auto;right:60px;transform:none;width:360px" src="../brand/TL_logo_primary_1024x237.png">
 <div class="num" style="color:#fff;z-index:2">{i+2}/{total}</div>
@@ -44,7 +44,7 @@ for o in offers:
     secs.append(f'''<section class="slide book" id="c{total}">
 <img class="logo" src="../brand/TL_logo_white_1024x237.png" style="top:110px">
 <div class="num" style="color:var(--ice)">{total}/{total}</div>
-<div class="t">{'احجز موعدك' if male else 'احجزي موعدك'}</div><div class="s">تواصل معنا على واتساب ونرتب لك الموعد المناسب</div>
+<div class="t">{'احجز موعدك' if male else ('احجزوا موعدكم' if b['gender'] == 'p' else 'احجزي موعدك')}</div><div class="s">تواصل معنا على واتساب ونرتب لك الموعد المناسب</div>
 <div class="list">{lis}</div>
 <div class="ft"><div class="chip wa">{gen.WA}+971 7 204 4666</div><div class="chip loc">{gen.PIN.replace('#1278CC','#C6EAF6')}طريق الخور، رأس الخيمة</div></div></section>''')
     html = f'''<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
