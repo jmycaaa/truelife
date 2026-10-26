@@ -22,14 +22,11 @@ def build():
   <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>{CSS}</style></head><body>
   <svg class="bg" viewBox="0 0 1080 1350">
-    <polygon points="0,105 70,150 70,470 0,425" fill="#C6EAF6" opacity=".55"/>
-    <polygon points="0,310 70,355 70,545 0,500" fill="#3DA0DC" opacity=".18"/>
-    <polygon points="70,210 210,205 300,265 70,330" fill="#C6EAF6" opacity=".35"/>
-    <polygon points="640,330 1030,0 1030,700 640,700" fill="#0BB0A8"/>
-    <polygon points="1030,560 1080,520 1080,1100 1030,1100" fill="#C6EAF6" opacity=".7"/>
-  </svg>
+  <polygon points="440,330 50,0 50,700 440,700" fill="#0BB0A8"/>
+  <polygon points="50,560 0,520 0,1100 50,1100" fill="#C6EAF6" opacity=".7"/>
+</svg>
   <img class="{model_cls}" src="{o['model']}" alt="">
-  <img class="logo" src="../brand/TL_logo_primary_1024x237.png" alt="True Life Medical Center">
+  <img class="logo" style="left:auto;right:60px;transform:none;width:380px" src="../brand/TL_logo_primary_1024x237.png" alt="True Life Medical Center">
   <div class="title"><div class="pre">{o['pre']}</div><div class="main" style="font-size:{o.get('main_size',76)}px">{o['main']}</div>{tag}</div>
   <div class="panel"></div>
   <div class="rows" style="top:{top}px">{rows}</div>
