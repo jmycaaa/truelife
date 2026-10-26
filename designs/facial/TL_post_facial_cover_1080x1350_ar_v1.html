@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#0BB0A8; --blue:#1278CC; --sky:#3DA0DC; --mint:#D2EAD2; --ice:#C6EAF6;
+    --deepteal:#077E79; --grey:#808080; --charcoal:#2B2F36;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px;background:#fff;overflow:hidden}
+  body{font-family:'Noto Sans Arabic',sans-serif;position:relative;direction:rtl}
+  .bg{position:absolute;inset:0;width:1080px;height:1350px}
+  .logo{position:absolute;top:70px;left:50%;transform:translateX(-50%);width:440px}
+  .model{position:absolute;right:0;bottom:0;width:560px;height:1060px;
+    background:linear-gradient(180deg,#e9f1f4 0%,#dbe7ec 100%);
+    border-top-left-radius:280px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 40px 0 90px;
+    color:#7a8a93;font-size:26px;font-weight:600;text-align:center;line-height:1.6}
+  .model small{display:block;font-size:20px;font-weight:400}
+  .title{position:absolute;top:250px;left:40px;width:560px;text-align:center}
+  .title .pre{font-size:62px;font-weight:400;color:var(--teal);line-height:1;letter-spacing:0}
+  .title .main{font-size:82px;font-weight:900;color:var(--blue);line-height:1.15;margin-top:6px;white-space:nowrap}
+  .panel{position:absolute;top:500px;left:0;width:600px;height:690px;background:rgba(255,255,255,.94);
+    border-top-right-radius:44px;border-bottom-right-radius:44px}
+  .rows{position:absolute;top:525px;left:58px;width:530px;display:flex;flex-direction:column;gap:22px}
+  .row{position:relative;min-height:112px;background:var(--mint);border-radius:18px;
+    display:flex;flex-direction:column;justify-content:center;padding:12px 24px 12px 168px;text-align:right}
+  .row .name{font-size:30px;white-space:nowrap;font-weight:700;color:var(--deepteal);line-height:1.25}
+  .row .sub{font-size:22px;font-weight:400;color:var(--deepteal);line-height:1.3;opacity:.9}
+  .pill{position:absolute;left:-14px;top:50%;transform:translateY(-50%);height:66px;min-width:158px;
+    background:var(--blue);border:5px solid #fff;border-radius:16px;box-shadow:0 4px 14px rgba(18,120,204,.18);
+    display:flex;align-items:center;justify-content:center;gap:6px;direction:ltr;color:#fff;padding:0 14px}
+  .pill b{font-family:'Noto Sans Arabic',sans-serif;font-size:48px;font-weight:800;line-height:1}
+  .pill svg{width:22px;height:24px;margin-top:10px}
+  .footer{position:absolute;bottom:42px;left:58px;width:530px;display:flex;justify-content:space-between;
+    font-size:22px;font-weight:600;color:var(--charcoal)}
+  .footer span{display:flex;align-items:center;gap:8px}
+  .footer .dot{width:10px;height:10px;border-radius:3px;background:var(--teal);transform:rotate(45deg)}
+  .ltr{direction:ltr;unicode-bidi:isolate}
+</style>
+</head>
+<body>
+<!-- brand background shapes, after the reference posts -->
+<svg class="bg" viewBox="0 0 1080 1350">
+  <polygon points="0,105 70,150 70,470 0,425" fill="#C6EAF6" opacity=".55"/>
+  <polygon points="0,310 70,355 70,545 0,500" fill="#3DA0DC" opacity=".18"/>
+  <polygon points="70,210 210,205 300,265 70,330" fill="#C6EAF6" opacity=".35"/>
+  <polygon points="640,330 1030,0 1030,700 640,700" fill="#0BB0A8"/>
+  <polygon points="420,470 560,470 560,640 420,640" fill="#D2EAD2" opacity=".55"/>
+  <polygon points="1030,560 1080,520 1080,1100 1030,1100" fill="#C6EAF6" opacity=".7"/>
+</svg>
+
+<div class="model">مكان صورة الموديل<small>صورة حقيقية مرخّصة – امرأة مبتسمة<br>بشرة طبيعية، يداها قرب الوجه</small></div>
+
+<img class="logo" src="../brand/TL_logo_primary_1024x237.png" alt="True Life Medical Center">
+
+<div class="title">
+  <div class="pre">عــــــروض</div>
+  <div class="main">العناية بالبشرة</div>
+</div>
+
+<div class="panel"></div>
+<div class="rows">
+  <div class="row"><div class="name">جلسة هيدرافيشال</div><div class="sub">(للتنظيف العميق)</div>
+    <div class="pill"><b>349</b><svg viewBox="0 0 22 24"><path d="M4 2v20h6a10 10 0 0 0 0-20H4z" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M0 9h20M0 15h20" stroke="#fff" stroke-width="2.4"/></svg></div></div>
+  <div class="row"><div class="name">هيدرافيشال + ديرما بن</div>
+    <div class="pill"><b>499</b><svg viewBox="0 0 22 24"><path d="M4 2v20h6a10 10 0 0 0 0-20H4z" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M0 9h20M0 15h20" stroke="#fff" stroke-width="2.4"/></svg></div></div>
+  <div class="row"><div class="name">تنظيف عميق للظهر</div><div class="sub">(ابتداءً من)</div>
+    <div class="pill"><b>499</b><svg viewBox="0 0 22 24"><path d="M4 2v20h6a10 10 0 0 0 0-20H4z" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M0 9h20M0 15h20" stroke="#fff" stroke-width="2.4"/></svg></div></div>
+  <div class="row"><div class="name">الفيشل الروسي</div>
+    <div class="pill"><b>499</b><svg viewBox="0 0 22 24"><path d="M4 2v20h6a10 10 0 0 0 0-20H4z" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M0 9h20M0 15h20" stroke="#fff" stroke-width="2.4"/></svg></div></div>
+  <div class="row"><div class="name">التقشير الذكي</div><div class="sub">(التقشير الأخضر – ابتداءً من)</div>
+    <div class="pill"><b>499</b><svg viewBox="0 0 22 24"><path d="M4 2v20h6a10 10 0 0 0 0-20H4z" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M0 9h20M0 15h20" stroke="#fff" stroke-width="2.4"/></svg></div></div>
+</div>
+
+<div class="footer">
+  <span><i class="dot"></i>طريق الخور، رأس الخيمة</span>
+  <span class="ltr"><i class="dot"></i>+971 7 204 4666</span>
+</div>
+</body>
+</html>
