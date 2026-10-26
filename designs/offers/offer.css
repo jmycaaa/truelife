@@ -1,0 +1,25 @@
+:root{--teal:#0BB0A8;--blue:#1278CC;--mint:#D2EAD2;--ice:#C6EAF6;--deepteal:#077E79;--charcoal:#2B2F36}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;background:#fff;overflow:hidden}
+body{font-family:'Readex Pro',sans-serif;position:relative;direction:rtl}
+.bg{position:absolute;inset:0;width:1080px;height:1350px}
+.logo{position:absolute;top:70px;left:50%;transform:translateX(-50%);width:440px}
+.model{position:absolute;right:-70px;bottom:0;width:650px;height:auto}
+.product{position:absolute;right:-150px;bottom:150px;width:800px;height:auto}
+.title{position:absolute;top:245px;left:40px;width:560px;text-align:center}
+.title .pre{font-size:56px;font-weight:300;color:var(--teal);line-height:1.1}
+.title .main{font-size:76px;font-weight:700;color:var(--blue);line-height:1.2;white-space:nowrap}
+.title .tagline{font-size:30px;font-weight:400;color:var(--deepteal);margin-top:6px;line-height:1.4}
+.panel{position:absolute;top:500px;left:0;width:600px;height:830px;background:rgba(255,255,255,.94);border-top-right-radius:44px;border-bottom-right-radius:44px}
+.rows{position:absolute;left:58px;width:530px;display:flex;flex-direction:column;gap:14px}
+.row{position:relative;background:var(--mint);border-radius:18px;display:flex;flex-direction:column;justify-content:center;padding:10px 24px 10px 172px;text-align:right}
+.row .name{font-weight:600;color:var(--deepteal);line-height:1.35}
+.row .sub{font-size:21px;font-weight:400;color:var(--deepteal);line-height:1.4;opacity:.9}
+.pill{position:absolute;left:-14px;top:50%;transform:translateY(-50%);height:66px;min-width:166px;background:var(--blue);border:5px solid #fff;border-radius:16px;box-shadow:0 4px 14px rgba(18,120,204,.18);display:flex;align-items:center;justify-content:center;gap:6px;direction:ltr;color:#fff;padding:0 14px}
+.pill b{font-size:44px;font-weight:700;line-height:1}
+.pill svg{width:22px;height:24px;margin-top:8px}
+.footer{position:absolute;bottom:40px;left:58px;width:530px;display:flex;flex-direction:column;gap:14px}
+.chip{display:flex;align-items:center;justify-content:center;gap:14px;height:72px;border-radius:36px;padding:0 26px;font-weight:600}
+.chip svg{width:34px;height:34px;flex:none}
+.chip.wa{background:var(--teal);color:#fff;font-size:36px;direction:ltr;box-shadow:0 6px 18px rgba(11,176,168,.28)}
+.chip.loc{background:#fff;border:3px solid var(--mint);color:var(--blue);font-size:30px}
