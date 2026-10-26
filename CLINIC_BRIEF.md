@@ -88,3 +88,11 @@ Open questions: offer end date; which address to use; whether any old prices sho
 - A white rounded panel sits behind the offer list and overlaps the model.
 - Right side: a real studio model cut out (head and shoulders), overlapping the teal triangle. Product still life at the bottom when there's no model (massage).
 - Layout variants: List (5–7 rows), Hero (1 big offer card), Numerals (session counts), Still life.
+
+## Brand identity (TrueLife_Brand_Identity_Guidelines.pdf, v1.0 Oct 2026, in the Drive folder)
+- Colours: True Teal #0BB0A8 (action, CTA, highlights) · True Blue #1278CC (headings, prices) · Sky #3DA0DC (decoration only) · Mint #D2EAD2 / Ice #C6EAF6 (cards and backgrounds) · Deep Teal #077E79 (text on mint) · Deep Blue #0E3F6B (dark offer cards, end-cards) · Charcoal #2B2F36 · Logo Grey #808080 · Cloud #F3F6F8 · White
+- Fonts: Noto Sans Arabic (Arabic), Inter (Latin), Caladea (tagline only). Western digits in Arabic copy.
+- Logo: use the supplied files only (TrueLife_logo_pack.zip in Drive). Never recolour, stretch or rebuild. Respect the clear space.
+- Rules: no white text on mint; prices need a condition and an end date; nothing is "free" except the consultation (per the guidelines); no "best", "guaranteed" or "last chance"; follow MOHAP ad rules; text under 20% of static ads; feed size 1080x1350.
+- Contact: +971 7 204 4666 · WhatsApp +971 4 415 0544 · Al Naeem Tower 4, Al Qawasim Corniche, RAK · @truelife.mc
+- Previous session's files in Drive: TrueLife_October_Campaign_Structure.csv (Meta campaigns: Awareness / Engagement / Leads), TrueLife_Carousel_Cards.csv (built with the OLD prices, needs updating), TrueLife_Ad_Captions.csv, TrueLife_October_Targeting.csv, True Life · October Campaign.pdf
