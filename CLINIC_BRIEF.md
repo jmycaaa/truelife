@@ -33,13 +33,47 @@ Source: https://truelifemc.ae/ (checked 2026-10-26). The website lists no prices
 Subfolders: Dermatology, Facial Therapy, Plastic, IV Drip, Male Treatments.
 The Carousel EN/AR subfolders are empty.
 
-### Facial "Beauty Therapy Offers" carousel (from the Carousel review.png reference)
-1. Cover: Hydrafacial from AED 349, Swipe for details
-2. Hydrafacial, AED 349: Clean, hydrated, glowing skin
-3. Hydrafacial + Derma Pen, AED 499: Glow Boost
-4. Derma Pen + Facial, AED 799 or 699?: Glow & Antioxidant
-5. Meso Pores + Facial, AED 699 or 799?: Pore Treatment
-6. PDRN (Salmon DNA) + Hydrafacial, AED 699: Regenerating boost
-7. CTA: Book your session on WhatsApp
+## Official October prices (AED) — from the client, these replace the reference prices
 
-Open questions: the prices for slides 4 and 5; the Arabic cover says "from 200" but the English cover says 349; Meso Pores or Meso Botox; which address to use.
+### Beauty Therapy
+| Offer | Arabic | AED |
+|---|---|---|
+| Hydrafacial session | جلسة تنظيف بشرة | 349 |
+| Hydrafacial + Dermapen | جلسة تنظيف بشرة + ديرما بن | 499 |
+| Back area facial (starting from) | جلسة تنظيف عميق لمنطقة الظهر (ابتداءً من) | 499 |
+| Russian facial | فيشل روسي | 499 |
+| Green peel / Smart peel (starting from) | التقشير الذكي (التقشير الأخضر) يبدأ من | 499 |
+
+### Derma
+| Offer | Arabic | AED |
+|---|---|---|
+| Botox or Filler (starting from) | بوتوكس أو فيلر (ابتداءً من) | 999 |
+| RRS Box + free RRS PM serum | بوكس RRS + سيروم RRS PM مجاناً | 1999 |
+| Salmon DNA skin booster + free mini facial | إبرة نضارة سلمون DNA + ميني فيشال مجاناً | 1099 |
+| Lift Age skin booster + free mini facial | إبرة نضارة للشد (Lift Age) + ميني فيشال مجاناً | 1499 |
+| Croma skin booster (Salmon DNA) + free Dermapen | إبرة نضارة (Croma) سلمون DNA + ديرما بن مجاناً | 1399 |
+| Harmonica biostimulator injection | إبرة الهارمونيكا للشد المائي | 3999 |
+| Bride or Groom package (massage + Hydrafacial + skin booster) | باكدج العروسة أو العريس (مساج + هيدرافيشال + إبرة نضارة) | 1499 |
+
+### Laser
+| Offer | Arabic | AED |
+|---|---|---|
+| Men full body laser (1 session) | ليزر الرجال جسم كامل (1 جلسة) | 399 |
+| Full body without front & back (1 session) | ليزر جسم كامل بدون بطن وظهر (1 جلسة) | 299 |
+| Face or underarm or bikini (3 sessions) | ليزر وجه أو إبط أو المنطقة الخاصة (3 جلسات) | 449 |
+| Soft light for face (4 sessions) | سوفت لايت للوجه (4 جلسات) | 399 |
+
+### Massage
+| Offer | Arabic | AED |
+|---|---|---|
+| Lymphatic massage (3 sessions) | مساج لمفاوي (3 جلسات) للتخلص من السوائل بالجسم | 499 |
+| Madero massage (3 sessions) | مساج الأخشاب (ماديرو) للتخلص من السيلوليت ونحت الجسم (3 جلسات) | 499 |
+| Relaxation massage (3 sessions) | مساج استرخائي (3 جلسات) | 499 |
+
+### Slimming
+| Offer | Arabic | AED |
+|---|---|---|
+| Fat dissolving, tummy (3 sessions) | 3 جلسات تكسير الدهون لمنطقة البطن | 999 |
+| Muscle stimulation, tummy (3 sessions) | 3 جلسات لتقوية العضلات لمنطقة البطن | 999 |
+
+Open questions: offer end date; which address to use; whether any old prices should be shown crossed out.
