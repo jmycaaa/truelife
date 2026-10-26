@@ -96,3 +96,10 @@ Open questions: offer end date; which address to use; whether any old prices sho
 - Rules: no white text on mint; prices need a condition and an end date; nothing is "free" except the consultation (per the guidelines); no "best", "guaranteed" or "last chance"; follow MOHAP ad rules; text under 20% of static ads; feed size 1080x1350.
 - Contact: +971 7 204 4666 · WhatsApp +971 4 415 0544 · Al Naeem Tower 4, Al Qawasim Corniche, RAK · @truelife.mc
 - Previous session's files in Drive: TrueLife_October_Campaign_Structure.csv (Meta campaigns: Awareness / Engagement / Leads), TrueLife_Carousel_Cards.csv (built with the OLD prices, needs updating), TrueLife_Ad_Captions.csv, TrueLife_October_Targeting.csv, True Life · October Campaign.pdf
+
+## Client decisions (2026-10-26)
+1. Address: **Al Khour Road, Ras Al Khaimah** (طريق الخور، رأس الخيمة)
+2. Phone / WhatsApp: **+971 7 204 4666**
+3. No "free" items in the designs. Use only the prices from the client's price tables.
+4. No end date on the designs; the ads are switched off when the offer ends.
+5. Use both models and doctors as each design needs. A content plan comes first.
