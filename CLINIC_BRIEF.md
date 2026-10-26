@@ -103,3 +103,10 @@ Open questions: offer end date; which address to use; whether any old prices sho
 3. No "free" items in the designs. Use only the prices from the client's price tables.
 4. No end date on the designs; the ads are switched off when the offer ends.
 5. Use both models and doctors as each design needs. A content plan comes first.
+
+## Plastic surgeon: Dr. Elsayed Hosni Abdelbaqi (named by the client)
+Specialist Plastic Surgeon · Egyptian · 10+ years · Arabic & English · M.D., M.Sc. Plastic & Reconstructive Surgery, M.B.B.Ch
+Procedure list taken from his profile at American Academy of Cosmetic Surgery Hospital, Dubai (https://www.aacsh.com/dr-elsayed-hosni-abdelbaqi). Confirm which of these he performs at True Life.
+- Body: liposuction & liposculpture, arm lift, arm lipo, tummy tuck, lipoabdominoplasty, thigh lift, buttock augmentation, BBL (fat transfer), neck lipo & neck lift
+- Face: blepharoplasty, brow lift, lip lift, otoplasty, facelift, rhinoplasty
+- Breast: augmentation, lift, reduction, reconstruction, gynecomastia
