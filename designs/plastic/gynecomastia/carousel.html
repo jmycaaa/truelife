@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--teal:#0BB0A8;--blue:#1278CC;--mint:#D2EAD2;--ice:#C6EAF6;--deepteal:#077E79;--navy:#0E3F6B;--charcoal:#2B2F36;--cloud:#F3F6F8}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Readex Pro',sans-serif;background:#ddd}
+  .slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:#fff;direction:rtl;margin-bottom:20px}
+  .bg{position:absolute;inset:0}
+  .logo{position:absolute;top:60px;left:50%;transform:translateX(-50%);width:400px}
+  .num{position:absolute;top:70px;left:60px;font-size:24px;font-weight:700;color:var(--teal);direction:ltr}
+  .ttl{font-weight:700;color:var(--blue);line-height:1.15}
+  .sub{color:var(--deepteal);font-weight:600}
+  /* WhatsApp / location chips, as on the facial card */
+  .chip{display:flex;align-items:center;justify-content:center;gap:14px;height:76px;border-radius:38px;padding:0 30px;font-weight:700}
+  .chip svg{width:36px;height:36px;flex:none}
+  .chip.wa{background:var(--teal);color:#fff;font-size:38px;direction:ltr;box-shadow:0 6px 18px rgba(11,176,168,.28)}
+  .chip.loc{background:#fff;border:3px solid var(--mint);color:var(--blue);font-size:30px}
+  .ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
+  .pill{display:inline-flex;align-items:center;gap:10px;background:var(--mint);color:var(--deepteal);font-weight:700;font-size:26px;border-radius:30px;padding:10px 24px}
+  .pill i{width:12px;height:12px;background:var(--teal);border-radius:3px;transform:rotate(45deg)}
+
+  /* slide 1 */
+  .s1 .model{position:absolute;left:-40px;bottom:0;width:690px}
+  .s1 .tag{position:absolute;top:265px;right:60px;background:var(--blue);color:#fff;font-weight:700;font-size:28px;padding:8px 26px;border-radius:24px}
+  .s1 .ttl{position:absolute;top:345px;right:60px;font-size:74px;width:520px;text-align:right;white-space:nowrap}
+  .s1 .sub{position:absolute;top:465px;right:60px;font-size:38px;width:520px;text-align:right}
+  .s1 .pills{position:absolute;top:610px;right:60px;display:flex;flex-direction:column;align-items:flex-start;gap:18px;width:500px}
+  .s1 .cta{position:absolute;right:60px;bottom:80px;width:480px}
+  .s1 .cta .chip{font-size:40px;direction:rtl}
+
+  /* slide 2 */
+  .s2 .ttl{position:absolute;top:200px;width:100%;text-align:center;font-size:76px}
+  .s2 .sub{position:absolute;top:305px;width:100%;text-align:center;font-size:32px}
+  .s2 .body{position:absolute;top:360px;left:299px;width:482px;height:640px}
+  .s2 .body img{width:100%;height:100%;mix-blend-mode:multiply;filter:brightness(1.06) contrast(1.1)}
+  .mk{position:absolute;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;background:var(--blue);border:5px solid #fff;box-shadow:0 0 0 3px var(--blue)}
+  .lbl{position:absolute;font-size:27px;font-weight:700;color:var(--charcoal);white-space:nowrap}
+  .lbl b{color:var(--blue)}
+  .lead{position:absolute;height:2px;background:var(--blue);opacity:.6}
+  .facts{position:absolute;left:50px;right:50px;bottom:55px;display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+  .fact{background:var(--mint);border-radius:22px;padding:20px 8px;text-align:center}
+  .fact b{display:block;font-size:34px;font-weight:700;color:var(--blue);direction:rtl}
+  .fact span{display:block;font-size:21px;font-weight:600;color:var(--deepteal);margin-top:4px;line-height:1.3}
+
+  /* slide 3 */
+  .s3 .ttl{position:absolute;top:200px;width:100%;text-align:center;font-size:84px}
+  .s3 .sub{position:absolute;top:325px;width:100%;text-align:center;font-size:32px}
+  .tips{position:absolute;top:420px;left:70px;right:70px;display:flex;flex-direction:column;gap:22px}
+  .tip{display:flex;align-items:center;gap:26px;background:var(--cloud);border-radius:24px;padding:22px 30px;border-right:10px solid var(--teal)}
+  .tip .n{flex:none;width:64px;height:64px;border-radius:18px;background:var(--blue);color:#fff;font-size:34px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .tip p{font-size:33px;font-weight:600;color:var(--charcoal);line-height:1.5}
+  .tip p small{display:block;font-size:24px;font-weight:400;color:#5b6570;line-height:1.5;margin-top:6px}
+
+  /* slide 4 */
+  .s4{background:var(--navy)}
+  .s4 .logo{width:440px;top:90px}
+  .s4 .ttl{position:absolute;top:280px;width:100%;text-align:center;color:#fff;font-size:100px}
+  .s4 .sub{position:absolute;top:430px;width:100%;text-align:center;color:var(--ice);font-size:34px;font-weight:400;line-height:1.5}
+  .doc{position:absolute;top:540px;left:90px;right:90px;height:470px;background:#fff;border-radius:36px;overflow:hidden}
+  .doc img{position:absolute;left:10px;bottom:0;height:450px;width:auto}
+  .doc .txt{position:absolute;right:40px;top:0;bottom:0;width:440px;display:flex;flex-direction:column;justify-content:center;text-align:right}
+  .doc .badge{align-self:flex-start;line-height:1.4;background:var(--mint);color:var(--deepteal);font-weight:700;font-size:24px;border-radius:20px;padding:6px 18px;margin-bottom:16px}
+  .doc .avatar{width:170px;height:170px;border-radius:50%;margin:0 auto 22px;background:var(--ice);display:flex;align-items:center;justify-content:center;border:6px solid var(--mint)}
+  .doc .avatar svg{width:90px;height:90px}
+  .doc h3{font-size:42px;line-height:1.45;margin-bottom:10px;font-weight:700;color:var(--blue)}
+  .doc h4{font-size:28px;font-weight:500;color:var(--deepteal);line-height:1.5;margin-top:4px}
+  .s4 .ctas{position:absolute;left:120px;right:120px;bottom:90px;display:flex;flex-direction:column;gap:18px}
+  .s4 .chip.loc{background:transparent;border-color:rgba(198,234,246,.5);color:#fff}
+</style>
+</head>
+<body>
+
+<!-- ============ SLIDE 1: promo cover ============ -->
+<section class="slide s1" id="s1">
+  <svg class="bg" viewBox="0 0 1080 1350">
+    <polygon points="1080,105 1010,150 1010,470 1080,425" fill="#C6EAF6" opacity=".55"/>
+    <polygon points="1010,210 870,205 780,265 1010,330" fill="#C6EAF6" opacity=".35"/>
+    <polygon points="480,360 50,0 50,820 480,820" fill="#0BB0A8"/>
+    <polygon points="50,560 0,520 0,1100 50,1100" fill="#C6EAF6" opacity=".7"/>
+  </svg>
+  <img class="model" src="model_cover.png" alt="">
+  <img class="logo" src="../../brand/TL_logo_primary_1024x237.png" alt="True Life Medical Center">
+  <div class="tag">جراحة التجميل</div>
+  <div class="ttl">علاج التثدي</div>
+  <div class="sub">صدر مشدود… وثقة بنفسك</div>
+  <div class="pills">
+    <span class="pill"><i></i>إزالة الدهون والغدة الزائدة</span>
+    <span class="pill"><i></i>نتيجة دائمة</span>
+    <span class="pill"><i></i>جروح صغيرة شبه مخفية</span>
+  </div>
+  <div class="cta"><div class="chip wa">احجز استشارتك</div></div>
+  <div class="num" style="left:auto;right:60px">1/4</div>
+</section>
+
+<!-- ============ SLIDE 2: incisions + recovery ============ -->
+<section class="slide s2" id="s2">
+  <svg class="bg" viewBox="0 0 1080 1350">
+    <polygon points="0,0 260,0 0,220" fill="#C6EAF6" opacity=".5"/>
+    <polygon points="1080,1350 1080,1010 820,1350" fill="#D2EAD2" opacity=".6"/>
+  </svg>
+  <img class="logo" style="width:300px;top:50px" src="../../brand/TL_logo_primary_1024x237.png" alt="">
+  <div class="ttl">أين يكون الجرح؟</div>
+  <div class="sub">فتحة صغيرة على حافة الهالة السفلية</div>
+  <div class="body"><img src="../male_illustration.png" alt=""></div>
+  <!-- generated markers -->
+  <svg style="position:absolute;left:299px;top:360px" width="482" height="640" viewBox="0 0 482 640"><path d="M152,230 Q164,240 176,230" fill="none" stroke="#1278CC" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 12"/><path d="M306,230 Q318,240 330,230" fill="none" stroke="#1278CC" stroke-width="7" stroke-linecap="round" stroke-dasharray="2 12"/></svg>
+  <div class="mk" style="left:395px;top:546px"></div>
+  <div class="mk" style="left:685px;top:546px"></div>
+  <div class="lead" style="left:644px;top:589px;width:126px"></div><div class="lbl" style="left:780px;top:569px"><b>●</b> حافة الهالة<br><small style="font-size:21px;font-weight:400">(لا تظهر بعد الالتئام)</small></div>
+  <div class="lead" style="left:250px;top:545px;width:130px"></div><div class="lbl" style="left:30px;width:215px;white-space:normal;line-height:1.3;top:525px;text-align:right"><b>●</b> فتحة شفط صغيرة</div>
+  <div class="facts">
+    <div class="fact"><b><bdi class="ltr">1–2</bdi></b><span>ساعة<br>مدة العملية</span></div>
+    <div class="fact"><b>نفس اليوم</b><span>الخروج<br>من العيادة</span></div>
+    <div class="fact"><b><bdi class="ltr">3–5</bdi></b><span>أيام للعودة<br>للعمل</span></div>
+    <div class="fact"><b><bdi class="ltr">4–6</bdi></b><span>أسابيع<br>المشد الضاغط</span></div>
+    <div class="fact"><b><bdi class="ltr">3–6</bdi></b><span>أشهر للنتيجة<br>النهائية</span></div>
+  </div>
+  <div class="num">2/4</div>
+</section>
+
+<!-- ============ SLIDE 3: aftercare tips ============ -->
+<section class="slide s3" id="s3">
+  <svg class="bg" viewBox="0 0 1080 1350">
+    <polygon points="0,0 260,0 0,220" fill="#C6EAF6" opacity=".5"/>
+    <polygon points="1080,1350 1080,1010 820,1350" fill="#D2EAD2" opacity=".6"/>
+  </svg>
+  <img class="logo" style="width:300px;top:50px" src="../../brand/TL_logo_primary_1024x237.png" alt="">
+  <div class="ttl">نصائح بعد العملية</div>
+  <div class="sub">لتعافٍ أسرع ونتيجة أجمل</div>
+  <div class="tips">
+    <div class="tip"><div class="n">1</div><p>البس المشد الضاغط باستمرار<small>لمدة <bdi class="ltr">4–6</bdi> أسابيع</small></p></div>
+    <div class="tip"><div class="n">2</div><p>امشِ خطوات خفيفة من اليوم الأول<small>لتنشيط الدورة الدموية</small></p></div>
+    <div class="tip"><div class="n">3</div><p>لا تمارين صدر ولا أوزان<small>لمدة <bdi class="ltr">4–6</bdi> أسابيع</small></p></div>
+    <div class="tip"><div class="n">4</div><p>قلل الملح واشرب ماء كثير<small>لتقليل التورم</small></p></div>
+    <div class="tip"><div class="n">5</div><p>التزم بالأدوية ومواعيد المتابعة<small>وتواصل معنا عند أي استفسار</small></p></div>
+  </div>
+  <div class="num">3/4</div>
+</section>
+
+<!-- ============ SLIDE 4: book ============ -->
+<section class="slide s4" id="s4">
+  <svg class="bg" viewBox="0 0 1080 1350">
+    <polygon points="760,0 1080,0 1080,330" fill="#0BB0A8" opacity=".18"/>
+    <polygon points="0,1050 0,1350 300,1350" fill="#0BB0A8" opacity=".18"/>
+  </svg>
+  <img class="logo" src="../../brand/TL_logo_white_1024x237.png" alt="True Life Medical Center">
+  <div class="ttl">احجز استشارتك</div>
+  <div class="sub">خطة واضحة تناسبك… قبل أي قرار</div>
+  <div class="doc">
+    <img src="../dr_elsayed.png" alt="">
+    <div class="txt"><span class="badge">جرّاحك</span>
+    <h3>د. السيد حسني<br>عبد الباقي</h3>
+    <h4>أخصائي جراحة التجميل والترميم</h4>
+    <h4 style="font-size:24px;color:#5b6570;font-weight:500;margin-top:12px;line-height:1.5">أكثر من 10 سنوات خبرة</h4></div>
+  </div>
+  <div class="ctas">
+    <div class="chip wa"><svg viewBox="0 0 32 32"><path fill="#fff" d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 6.9L3 29l6.5-2c1.9 1 4.1 1.6 6.5 1.6 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.3c-2.1 0-4.1-.6-5.8-1.7l-.4-.2-3.9 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.7C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.3 16 26.3zm6-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>+971 7 204 4666</div>
+    <div class="chip loc"><svg viewBox="0 0 32 32"><path fill="#C6EAF6" d="M16 2a10 10 0 0 0-10 10c0 7.5 10 18 10 18s10-10.5 10-18A10 10 0 0 0 16 2zm0 13.6A3.6 3.6 0 1 1 16 8.4a3.6 3.6 0 0 1 0 7.2z"/></svg>طريق الخور، رأس الخيمة</div>
+  </div>
+  <div class="num" style="color:var(--ice)">4/4</div>
+</section>
+</body>
+</html>

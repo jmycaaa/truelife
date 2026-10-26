@@ -113,8 +113,7 @@
   "pre": "عروض",
   "main": "المساج",
   "tagline": "استرخاء وعناية تشعرك بالتجدد",
-  "model": "model_massage.png",
-  "product": true,
+  "model": "model_massage_relax.png",
   "rows": [
    [
     "مساج استرخائي",
