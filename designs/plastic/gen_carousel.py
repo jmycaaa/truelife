@@ -61,6 +61,6 @@ if spec.get('gender') == 'm':
     s = s.replace('احجزي', 'احجز').replace('تناسب جسمك', 'تناسبك')
 # face surgeries keep the original doctor photo; body & breast use dr_body.png
 if slug in ('rhinoplasty', 'facelift', 'eyelid', 'brow_lift', 'otoplasty'):
-    s = s.replace('../dr_body.png', '../dr_elsayed.png')
+    s = s.replace('<img src="../dr_body.png" alt="" style="filter:drop-shadow(0 6px 14px rgba(14,63,107,.22))">', '<img src="../dr_elsayed.png" alt="">')
 open(f'{slug}/carousel.html', 'w', encoding='utf-8').write(s)
 print('written', slug)
