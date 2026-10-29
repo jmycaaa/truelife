@@ -59,5 +59,8 @@ s = s.replace(s3, n3)
 s = s.replace('src="body_illustration.png"', 'src="' + spec.get('illustration', '../liposuction/body_illustration.png') + '"')
 if spec.get('gender') == 'm':
     s = s.replace('احجزي', 'احجز').replace('تناسب جسمك', 'تناسبك')
+# face surgeries keep the original doctor photo; body & breast use dr_body.png
+if slug in ('rhinoplasty', 'facelift', 'eyelid', 'brow_lift', 'otoplasty'):
+    s = s.replace('../dr_body.png', '../dr_elsayed.png')
 open(f'{slug}/carousel.html', 'w', encoding='utf-8').write(s)
 print('written', slug)
